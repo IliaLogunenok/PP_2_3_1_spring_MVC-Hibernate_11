@@ -7,6 +7,7 @@ import javax.transaction.Transactional;
 import java.util.ArrayList;
 import java.util.List;
 
+//Вместо этого класса используется UserRepository
 @Component
 @Transactional
 public class UserDAO {
