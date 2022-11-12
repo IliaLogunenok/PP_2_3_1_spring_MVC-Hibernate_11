@@ -17,7 +17,8 @@ public class User {
     @Column(name = "surname")
     private String surname;
 
-    public User() {}
+    public User() {
+    }
 
     public User(int id, String name, String surname) {
         this.id = id;
